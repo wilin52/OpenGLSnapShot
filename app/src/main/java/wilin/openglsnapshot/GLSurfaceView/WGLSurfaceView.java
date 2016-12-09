@@ -6,7 +6,7 @@ import android.util.AttributeSet;
 import android.view.Surface;
 
 /**
- * Lin WenLong
+ * @author LIN WENLONG
  */
 public class WGLSurfaceView extends GLSurfaceView {
     private GLRenderer renderer;
