@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">OpenGLSnapshot</string>
+    <string name="action_settings">Settings</string>
+    <string name="video_start">Play</string>
+    <string name="video_stop">Stop</string>
+    <string name="video_pause">Pause</string>
+    <string name="video_snapshot">Snapshot</string>
+    <string name="setting_permission_ask_again" translatable="false">This app may not work correctly without the requested permissions. Modify app permissions now? </string>
+    <string name="action_deny" translatable="false">Deny</string>
+    <string name="action_allow" translatable="false">Allow</string>
+    <string name="permission_storage_requested" translatable="false">It would like to access your storage to save photos and videos.</string>
+</resources>
