@@ -13,10 +13,17 @@ public class WGLSurfaceView extends GLSurfaceView {
 
     public WGLSurfaceView(Context context) {
         super(context);
+        init(context);
     }
 
     public WGLSurfaceView(Context context, AttributeSet attrs) {
         super(context, attrs);
+        init(context);
+    }
+
+    private void init(Context context){
+        setEGLContextClientVersion(2);
+        setRenderer(new GLRenderer(context));
     }
 
     public void setRenderer(GLRenderer renderer) {

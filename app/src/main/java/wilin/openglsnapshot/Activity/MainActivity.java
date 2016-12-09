@@ -69,9 +69,6 @@ public class MainActivity extends AppCompatActivity implements SnapshotListener,
     }
 
     private void initGLSurfaceView() {
-        GLRenderer renderer = new GLRenderer(this);
-        wglSurfaceView.setEGLContextClientVersion(2);
-        wglSurfaceView.setRenderer(renderer);
         wglSurfaceView.setSnapshotListener(this);
     }
 
