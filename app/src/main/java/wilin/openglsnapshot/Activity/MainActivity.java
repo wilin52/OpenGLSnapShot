@@ -39,7 +39,9 @@ public class MainActivity extends AppCompatActivity implements SnapshotListener,
     private final static int REQUEST_ACCESS_SETTING_CODE = 1;
     private final static String videoPath = Environment.getExternalStorageDirectory().getPath() + "/one.mp4";
     private MediaPlayer mediaPlayer;
-
+    /**
+     * 视频播放状态
+     */
     private final static int VIDEO_STATE_IDLE = 0;
     private final static int VIDEO_STATE_PLAY = 1;
     private final static int VIDEO_STATE_PAUSE = 2;
